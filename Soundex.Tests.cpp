@@ -2,6 +2,6 @@
 
 TEST(SoundexTestSuite,generateSoundex_ReturnsEmptyStringForEmptyStringInput){
     char soundex[5];
-    generateSoundex("", soundex);
+    generateSoundex("", soundex); 
     EXPECT_EQ(soundex,"");
 }
